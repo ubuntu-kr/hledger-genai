@@ -16,4 +16,4 @@ dependencies = [
 ]
 
 [project.scripts]
-hledger-genai = "main:main"
+hledger-genai = "hledger_genai.main:main"
