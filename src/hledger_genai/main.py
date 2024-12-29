@@ -1,10 +1,10 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.graph import START, StateGraph
 import argparse
-from models import State, TransactionModel, AppConfig
-from raghelpers import retrieve, generate, load_accounts_for_context
-from ioutils import image_to_base64
-from vecstore_loader import load_vectorstore, prepare_vectorstore
+from hledger_genai.models import State, TransactionModel, AppConfig
+from hledger_genai.raghelpers import retrieve, generate, load_accounts_for_context
+from hledger_genai.ioutils import image_to_base64
+from hledger_genai.vecstore_loader import load_vectorstore, prepare_vectorstore
 import yaml, sys
 
 
