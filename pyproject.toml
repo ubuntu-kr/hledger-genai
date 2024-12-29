@@ -1,0 +1,19 @@
+[project]
+name = "hledger-genai"
+version = "0.1.0"
+description = "hledger 회계장부 자동 전표처리 CLI - Langchain, Google Gemini 활용"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-chroma>=0.1.4",
+    "langchain>=0.3.13",
+    "langgraph>=0.2.60",
+    "langchain-google-genai>=2.0.7",
+    "pydantic>=2.10.4",
+    "langchain-text-splitters>=0.3.4",
+    "langchain-core>=0.3.28",
+    "langchain-community>=0.3.13",
+]
+
+[project.scripts]
+hledger-genai = "main:main"
