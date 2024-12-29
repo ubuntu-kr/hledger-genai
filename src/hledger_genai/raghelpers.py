@@ -1,6 +1,6 @@
 
 from langchain.prompts import ChatPromptTemplate
-from models import State
+from hledger_genai.models import State
 
 def prompt():
     return ChatPromptTemplate.from_messages(
