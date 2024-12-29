@@ -24,6 +24,11 @@ vectorstore:
 ```
 ## CLI 사용
 ### 설치
+
+```bash
+pip install git+https://github.com/ubuntu-kr/hledger-genai.git
+```
+
 ### Google API Key 환경변수 설정
 
 Google AI Studio 혹은 Google Cloud Console 에서 API키를 발급하여 `GOOGLE_API_KEY` 환경변수로 설정 해 주세요. 필요에 따라 Generative Language API 활성화가 따로 필요할 수 있습니다.
